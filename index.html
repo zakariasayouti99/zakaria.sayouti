@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque Numérique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Bibliothèque Numérique</h1>
+        <input type="text" id="search" placeholder="Rechercher un livre...">
+    </header>
+
+    <main id="bookContainer">
+
+        <div class="book">
+            <h2>Le Petit Prince</h2>
+            <p>Auteur : Antoine de Saint-Exupéry</p>
+            <button onclick="lireLivre('Le Petit Prince')">Lire</button>
+        </div>
+
+        <div class="book">
+            <h2>L'Étranger</h2>
+            <p>Auteur : Albert Camus</p>
+            <button onclick="lireLivre('LÉtranger')">Lire</button>
+        </div>
+
+        <div class="book">
+            <h2>Les Misérables</h2>
+            <p>Auteur : Victor Hugo</p>
+            <button onclick="lireLivre('Les Misérables')">Lire</button>
+        </div>
+
+        <div class="book">
+            <h2>Candide</h2>
+            <p>Auteur : Voltaire</p>
+            <button onclick="lireLivre('Candide')">Lire</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Projet Déploiement Git & Netlify - 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
